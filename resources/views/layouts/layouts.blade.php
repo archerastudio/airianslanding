@@ -166,9 +166,23 @@
     </section>
     <!-- end footer-alt -->
 
-<!-- Script Whatsapp -->
+{{-- <!-- Script Whatsapp -->
 <script type="text/javascript" src="https://cek.jasa-design.web.id/contactform-wa/widget/?kode_area=62&nomor_whatsapp=88229057631&nama_admin=Airians Admin&pesan_salam=Hi, Airians !&posisi_widget=kanan"></script>
-<!-- Script Whatsapp -->
+<!-- Script Whatsapp --> --}}
+
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+    (function(){
+    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+    s1.async=true;
+    s1.src='https://embed.tawk.to/6071bb1df7ce182709390a27/1f2u45rm5';
+    s1.charset='UTF-8';
+    s1.setAttribute('crossorigin','*');
+    s0.parentNode.insertBefore(s1,s0);
+    })();
+    </script>
+    <!--End of Tawk.to Script-->
 
 <!-- Javascript -->
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
