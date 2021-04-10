@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AirVisual Creative</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+
+    <!-- App favicon -->
+    <link rel="shortcut icon" href="{{ asset('images/favicon.ico') }}" />
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/bootstrap.min.css') }}" />
+
+    <!-- Material Icon -->
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/materialdesignicons.min.css') }}" />
+
+    <!-- tinyslider -->
+    <link rel="stylesheet" href="{{ asset('css/tiny-slider.css') }}" />
+
+    <!-- Custom  scss -->
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/style.css') }}" />
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="58">
+    <!--Navbar Start-->
+     <nav class="navbar navbar-expand-lg navbar-light fixed-top sticky" id="navbar">
+         <div class="container">
+             <!-- LOGO -->
+             <a class="logo text-uppercase" href="/">
+                     <img src="images/logo-light.png" alt="" class="logo-light" height="30" />
+                     <img src="images/logo-dark.png" alt="" class="logo-dark" height="30" />
+                 </a>
+
+             <a href="#" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                     <i class="mdi mdi-menu"></i>
+                 </a>
+             <div class="collapse navbar-collapse" id="navbarCollapse">
+                 <ul class="navbar-nav ml-auto navbar-center mt-lg-0 mt-2" id="navbar-navlist">
+                     <!-- <li class="nav-item">
+                         <a href="#home" class="nav-link" id="scrollElement">Home</a>
+                     </li> -->
+                     <li class="nav-item dropdown">
+                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                           Layanan
+                         </a>
+                         <ul class="dropdown-custom dropdown-menu" aria-labelledby="navbarDropdown">
+                           <li><a class="dropdown-item" href="#">Marketplace Management</a></li>
+                           <li><a class="dropdown-item" href="#">Social Media Management</a></li>
+                           <li><a class="dropdown-item" href="#">Social Media Content Creator</a></li>
+                           <li><a class="dropdown-item" href="#">Video dan Fotografi</a></li>
+                           <li><hr class="dropdown-divider"></li>
+                           <li><a class="dropdown-item" href="#">
+                            <i class="uim uim-download-alt"></i>  Download Pricelist</a></li>
+                         </ul>
+                       </li>
+                     <li class="nav-item">
+                         <a href="/about" class="nav-link">Tentang Kami</a>
+                     </li>
+                     <!-- <li class="nav-item">
+                         <a href="#features" class="nav-link">Features</a>
+                     </li>
+                     <li class="nav-item">
+                         <a href="#clients" class="nav-link">Clients</a>
+                     </li> -->
+                     <li class="nav-item">
+                         <a href="/pricing" class="nav-link">Paket Harga</a>
+                     </li>
+                     <!-- <li class="nav-item">
+                         <a href="" class="nav-link">Kontak</a>
+                     </li> -->
+                     <li class="nav-item">
+                         <a href="" class="nav-link">F&Q</a>
+                     </li>
+                     <li class="nav-item">
+                         <a href="https://course.airvisualcreative.com" class="nav-link">Course <span class="badge rounded-pill bg-success">Coming Soon</span></a>
+                     </li>
+                 </ul>
+                 <a href="#" class="btn btn-airvisual btn-info btn-sm navbar-btn my-lg-0 my-2">Sign in</a>
+             </div>
+         </div>
+     </nav>
+     <!-- Navbar End -->
+
+    @yield('Home')
+    @yield('Pricing')
+    @yield('About')
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#212F59" fill-opacity="1" d="M0,128L48,117.3C96,107,192,85,288,74.7C384,64,480,64,576,80C672,96,768,128,864,128C960,128,1056,96,1152,74.7C1248,53,1344,43,1392,37.3L1440,32L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+
+    <!-- start footer -->
+    <footer class="footer bg-dark text-white-50">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <a href="#" class="d-block mb-3">
+                        <img src="images/logo-light.png" alt="" height="40" />
+                    </a>
+                    <p>E-Course and Workshop</p><br>
+                    <p>Pagarsih 245, Bandung</p>
+                </div>
+
+                <div class="col-lg-2 col-sm-6">
+                    <div class="mt-4 mt-lg-0">
+                        <h5 class="mb-4 font-18 text-white">Links</h5>
+                        <ul class="list-unstyled footer-list-menu">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About us</a></li>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">Contact us</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-6">
+                    <div class="mt-4 mt-lg-0">
+                        <h5 class="mb-4 font-18 text-white">Resources</h5>
+                        <ul class="list-unstyled footer-list-menu">
+                            <li><a href="#">Help Center</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms & Conditions</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="mt-4 mt-lg-0">
+                        <h5 class="mb-4 font-18 text-white">Social</h5>
+                        <ul class="list-inline social-icons-list">
+                            <li class="list-inline-item">
+                                <a href="https://www.instagram.com/airvisualcreative/"><i class="mdi mdi-instagram"></i></a>
+                            </li>
+                            <!-- <li class="list-inline-item">
+                                <a href="#"><i class="mdi mdi-twitter"></i></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#"><i class="mdi mdi-linkedin"></i></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#"><i class="mdi mdi-google-plus"></i></a>
+                            </li> -->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- end row -->
+        </div>
+        <!-- end container -->
+    </footer>
+    <!-- end footer -->
+
+    <!-- Start footer-alt -->
+    <section class="footer-alt py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="text-center text-white-50">
+                        <p class="mb-0">2020 © AirVisual. </p>
+                    </div>
+                </div>
+            </div>
+            <!-- end row -->
+        </div>
+        <!-- end container -->
+    </section>
+    <!-- end footer-alt -->
+
+<!-- Script Whatsapp -->
+<script type="text/javascript" src="https://cek.jasa-design.web.id/contactform-wa/widget/?kode_area=62&nomor_whatsapp=88229057631&nama_admin=Airians Admin&pesan_salam=Hi, Airians !&posisi_widget=kanan"></script>
+<!-- Script Whatsapp -->
+
+<!-- Javascript -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+<script src="{{ asset('js/bootstrap.bundle.min.js') }}"></script>
+
+<!-- unicons -->
+<script src="https://unicons.iconscout.com/release/v2.1.11/script/monochrome/bundle.js"></script>
+
+ <!-- testi-slider -->
+ <script src="{{ asset('js/tiny-slider.js') }}"></script>
+
+<!-- app js -->
+<script src="{{ asset('js/app.js') }}"></script>
+{{-- <a href="#" class="ignielToTop"></a> --}}
+</body>
+</html>
