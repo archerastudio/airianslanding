@@ -8,6 +8,20 @@
     <meta name="description" content="" />
     <meta name="keywords" content="" />
 
+
+    <!-- Google Analytics -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5Z23S0MJN4"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-5Z23S0MJN4');
+    </script>
+    <!-- Google Analytics -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+
     <!-- App favicon -->
     <link rel="shortcut icon" href="{{ asset('images/favicon.ico') }}" />
 
