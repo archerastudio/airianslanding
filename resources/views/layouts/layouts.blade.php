@@ -40,7 +40,7 @@
 
 <body data-spy="scroll" data-target=".navbar" data-offset="58">
     <!--Navbar Start-->
-     <nav class="navbar navbar-expand-lg navbar-light fixed-top sticky" id="navbar">
+     <nav class="navbar navbar-expand-lg navbar-navy fixed-top sticky" id="navbar">
          <div class="container">
              <!-- LOGO -->
              <a class="logo text-uppercase" href="/">
@@ -61,10 +61,9 @@
                            Layanan
                          </a>
                          <ul class="dropdown-custom dropdown-menu" aria-labelledby="navbarDropdown">
-                           <li><a class="dropdown-item" href="#">Marketplace Management</a></li>
-                           <li><a class="dropdown-item" href="#">Social Media Management</a></li>
-                           <li><a class="dropdown-item" href="#">Social Media Content Creator</a></li>
-                           <li><a class="dropdown-item" href="#">Video dan Fotografi</a></li>
+                           <li><a class="dropdown-item" href="#" style="font-weight: 600;">Marketplace Management <p style="font-size: 15px; font-weight: 400;">Percayakan pengelolaan Marketplace kamu, <br>dan kami akan tingatkan Traffic Penjualan Tokomu</p></a></li>
+                           <li><a class="dropdown-item" href="#" style="font-weight: 600;">Social Media Content Creator <p style="font-size: 15px; font-weight: 400;">Percayakan pengelolaan Marketplace kamu, <br>dan kami akan tingatkan Traffic Penjualan Tokomu</p></a></li>
+                           <li><a class="dropdown-item" href="#" style="font-weight: 600;">Video dan Design <p style="font-size: 15px; font-weight: 400;">Percayakan pengelolaan Marketplace kamu, <br>dan kami akan tingatkan Traffic Penjualan Tokomu</p></a></li>
                            <li><hr class="dropdown-divider"></li>
                            <li><a class="dropdown-item" href="#">
                             <i class="uim uim-download-alt"></i>  Download Pricelist</a></li>
@@ -91,6 +90,9 @@
                      <li class="nav-item">
                          <a href="https://course.airvisualcreative.com" class="nav-link">Course <span class="badge rounded-pill bg-success">Coming Soon</span></a>
                      </li>
+                     <li class="nav-item">
+                        <a href="https://course.airvisualcreative.com" class="nav-link">Blog</a>
+                    </li>
                  </ul>
                  <a href="#" class="btn btn-airvisual btn-info btn-sm navbar-btn my-lg-0 my-2">Sign in</a>
              </div>
@@ -112,8 +114,7 @@
                     <a href="#" class="d-block mb-3">
                         <img src="images/logo-light.png" alt="" height="40" />
                     </a>
-                    <p>E-Course and Workshop</p><br>
-                    <p>Pagarsih 245, Bandung</p>
+                    <p>Pagarsih 245, Bandung <br> West Java, 40231</p>
                 </div>
 
                 <div class="col-lg-2 col-sm-6">
@@ -196,7 +197,17 @@
     s0.parentNode.insertBefore(s1,s0);
     })();
     </script>
-    <!--End of Tawk.to Script-->
+<!--End of Tawk.to Script-->
+
+{{-- <script type='text/javascript'>
+$(document).ready(function() {$(&#39;img#closed&#39;).click(function(){$(&#39;#bl_banner&#39;).hide(90);});});
+</script>
+<div id='fixedban' style='width:100%;margin:auto;text-align:center;float:none;overflow:hidden;display:scroll;position:fixed;bottom:0;z-index:999;-webkit-transform:translateZ(0);'>
+<div><a id='close-fixedban' onclick='document.getElementById(&apos;fixedban&apos;).style.display = &apos;none&apos;;' style='cursor:pointer;'><img alt='close' src='http://1.bp.blogspot.com/-_A83iDM6JYc/VhtxROLILrI/AAAAAAAADK4/aM4ikIA6aqI/s1600/btn_close.gif' title='close button' style='vertical-align:middle;'/></a></div>
+<div style='text-align:center;display:block;max-width:100%;height:auto;overflow:hidden;margin:auto'>
+<a href="https://my.domainesia.com/ref.php?u=14798" target="_blank"><img src="https://dnva.me/25f5a" alt="www.domainesia.com"></a>
+</div>
+</div> --}}
 
 <!-- Javascript -->
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>

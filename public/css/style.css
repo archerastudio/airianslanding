@@ -18,11 +18,17 @@ File: Main scss file
 12.Authentication
 ********************************/
 /*@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&display=swap");*/
-@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 body {
   font-size: 1rem;
+  font-weight: 500;
   color: #343a40;
-  font-family: "Questrial", sans-serif;
+  font-family: "Quicksand", sans-serif;
 }
 
 /* Tambahan CSS */
@@ -33,12 +39,75 @@ html {scroll-behavior:smooth;}
 .ignielToTop2 {width:50px; height:50px; position:fixed; bottom:50px; right: 80rem; z-index:99; cursor:pointer; border-radius:100px; transition:all .5s; background:#008c5f url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M7.41,15.41L12,10.83L16.59,15.41L18,14L12,8L6,14L7.41,15.41Z' fill='%23fff'/%3E%3C/svg%3E") no-repeat center center;}
 .ignielToTop2:hover {background:#212F59 url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M7.41,15.41L12,10.83L16.59,15.41L18,14L12,8L6,14L7.41,15.41Z' fill='%23fff'/%3E%3C/svg%3E") no-repeat center center;}
 
+.text-roboto {
+  font-weight: 600;
+  color: #343a40;
+  font-family: "Roboto", sans-serif;
+}
+
+/* .dropdown {
+    list-style: none; background: green; padding: 10px; display: inline-block;
+} */
+/* .dropdown .nav-link {color:#fff; text-decoration: none;}
+.dropdown .dropdown-menu a{color: #000; text-decoration: none;}
+.dropdown .btn {background: green; color:#fff;}
+.dropdown .btn:hover {background: cyan; color:#000;}
+.dropdown .btn:active {background: cyan; color:#000;}
+.dropdown .btn:focus {background: rgb(5, 5, 5); color:#000;}
+.dropdown-menu .dropdown-item {display: inline-block; width: 100%; padding: 10px 5px;} */
+/* .dropdown .dropdown-menu a{color: #000; text-decoration: none; width: 100%;}
+.container .dropdown .dropdown-menu a:hover
+{
+  border: 2px thin;
+  border-style: solid;
+  border-width: 2px;
+  border-color: teal;
+  background-color: transparent;
+} */
+
+@media (min-width: 720px) {
+#contact {
+    margin-bottom: -300px;
+}
+}
+
 .dropdown-custom {
     border: none;
 }
 
+.dropdown-custom .dropdown-item {
+    font-weight: 500;
+}
+
+/* .btn-air:hover, .btn-air:focus, .btn-air:active, .btn-air.active {
+    background: #08a97c;
+    border-color: #08a97c;
+    color: #ffffff;
+  } */
+
+  .btn-outline-air {
+    color: #ffffff;
+    border-color: #ffffff;
+  }
+
+  .btn-outline-air:hover, .btn-outline-air:focus, .btn-outline-air:active, .btn-outline-air.active {
+    background: #ffffff !important;
+    border-color: #ffffff !important;
+    color: #212F59;
+  }
+
 .btn-airvisual {
-  background-color: #212F59 !important;
+  background-color: #133499 !important;
+}
+
+.waves-header {
+    margin-top: -100px;
+}
+
+@media (max-width: 720px) {
+  .waves-header {
+    margin-top: -20px;
+  }
 }
 
 .badge {
@@ -48,12 +117,47 @@ html {scroll-behavior:smooth;}
   margin-top: 4px;
 }
 
+.img-car img{
+    width: 100%;
+}
+
+.logo-link{
+    margin-top: 190px;
+    margin-left: 5px;
+}
+
+.anim-link a {
+  color: rgb(31, 128, 219);
+  display: inline-block;
+  padding-right: 1px;
+  padding-left: 1px;
+  position: relative;
+}
+
+.anim-link a:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #0087ca;
+  transform-origin: bottom left;
+  transition: transform 0.25s ease-out;
+}
+
+.anim-link a:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
 .promo-alert {
-  background-color: #212F59;
+  background-color: #0099ff;
   border: none;
   width: 90%;
   margin-left: 50px;
-  margin-top: -90px;
+  margin-top: 5px;
   padding: 20px 20px;
   margin-right: 0;
   border-radius: 50px;
@@ -100,14 +204,22 @@ html {
   scroll-padding-top: 58px;
 }
 
+h2 {
+    font-weight: 500;
+}
+
+h3 {
+    /* font-family: 'Inter', sans-serif; */
+    font-weight: 600;
+}
+
 h1,
-h2,
-h3,
+
 h4,
 h5,
 h6 {
   color: #343a40;
-  font-family: "Questrial", sans-serif;
+  font-family: "Quicksand", sans-serif;
   font-weight: 200;
 }
 
@@ -265,7 +377,7 @@ hr {
 }
 
 .bg-light {
-  background-color: #f6faff !important;
+  background-color: #212F59 !important;
 }
 
 .bg-soft-light {
@@ -471,7 +583,7 @@ label {
   padding: 10px 16px;
   font-weight: 500;
   transition: all 0.4s;
-  border-radius: 7px;
+  border-radius: 90px;
 }
 
 .btn:hover, .btn:focus {
@@ -734,16 +846,16 @@ label {
 
 .navbar .navbar-nav .nav-item .nav-link {
   line-height: 26px;
-  color: rgba(255, 255, 255, 0.6);
+  color: rgb(255, 255, 255);
   transition: all 0.3s;
   background-color: transparent !important;
   padding: 6px 10px;
   margin: 0 7px;
-  font-weight: 400;
+  font-weight: 600;
 }
 
 .navbar .navbar-nav .nav-item .nav-link:hover, .navbar .navbar-nav .nav-item .nav-link:active, .navbar .navbar-nav .nav-item .nav-link:focus, .navbar .navbar-nav .nav-item .nav-link.active {
-  color: #ffffff;
+  color: #8338EC;
 }
 
 .navbar .navbar-btn {
@@ -802,6 +914,11 @@ label {
   background-color: #f6faff;
   /*box-shadow: 0px 8px 35px 0px rgba(69, 61, 80, 0.05);*/
 }
+
+.navbar-navy {
+    background-color: #212F59;
+    /*box-shadow: 0px 8px 35px 0px rgba(69, 61, 80, 0.05);*/
+  }
 
 .navbar-light .logo .logo-dark {
   display: inline-block;
@@ -873,6 +990,8 @@ label {
 
 @media (max-width: 991px) {
 
+
+
   .promo-alert {
     /* display: none; */
     width: 100%;
@@ -880,6 +999,7 @@ label {
     padding-bottom: -80px;
     margin-left: 0px;
     border-radius: 0px;
+    margin-top: -50px;
   }
 
   .promo-alert .promo-content {
@@ -1117,8 +1237,9 @@ label {
 }
 
 .hero-5 {
-  padding-top: 190px;
-  margin-bottom: 180px;
+  padding-top: 120px;
+  padding-bottom: -30px;
+  margin-bottom: -50px;
 }
 
 .hero-5 .hero-5-title-bg {
@@ -1131,7 +1252,8 @@ label {
 }
 
 .hero-5 .hero-5-content {
-  margin-top: 130px;
+  margin-top: 80px;
+  margin-bottom: 0px;
 }
 
 .hero-5 .hero-5-content .hero-5-title {
@@ -1203,8 +1325,8 @@ label {
     font-size: 30px !important;
   }
   .hero-5 {
-    padding-top: 130px;
-    margin-bottom: 140px;
+    padding-top: 100px;
+    margin-bottom: 0px;
   }
   .hero-5 .hero-5-content {
     margin-top: 0px !important;
@@ -1235,7 +1357,7 @@ label {
     font-size: 42px;
   }
   .hero-5 {
-    margin-bottom: 130px;
+    margin-bottom: 0px;
   }
   .hero-5 .hero-5-content .hero-5-title {
     font-size: 30px;
