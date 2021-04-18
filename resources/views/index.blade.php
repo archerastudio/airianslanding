@@ -12,10 +12,10 @@
             <div class="row text-left">
                 <div class="col-lg-5 col-md-12">
                     <div class="hero-5-content">
-                        <h2 class="text-weight-bolder text-white mb-1">Solusi pembayaran lengkap yang dirancang untuk bisnis Anda</h2>
+                        <h2 class="text-weight-bolder text-white mb-1">Solusi buat kamu yang ingin mengembangkan bisnis di Marketplace Online</h2>
                         {{-- <h2 class="hero-5-title fw-normal mb-4">Kamu bisa Fokus untuk Mengembangkan Bisnismu.</h2> --}}
                         <br>
-                        <p class="font-weight-bold text-white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium quia nesciunt neque error repellat voluptas nobis eveniet laboriosam quam! Rem aut tenetur repellendus numquam vitae recusandae omnis dolorem at debitis!</p>
+                        <p class="font-weight-bold text-white">Jualan apapun dimanapun ada strategi dan ilmunya, termasuk di Marketplace Online, buat kamu yang pengen Online Shop kamu bisa bersaing dengan yang lain, kita bisa bantu kamu mencapai itu ! </p>
                         <br>
                         <a href="" class="btn btn-airvisual btn-lg btn-block my-lg-0 my-2 text-white">Daftar Sekarang</a>
                         <a href="https://api.whatsapp.com/send?phone=6288229057631&text=Hi,%20Airians!%20👋%0AMau%20Tanya%20Boleh%20?" class="btn btn-outline-air ml-2">Hubungi AirTeams</a>
@@ -85,10 +85,9 @@
             <div class="row justify-content-center">
                 <div class="col-lg-10">
                     <div class="text-center mb-5">
-                        <h3 class="mb-3">A digital web design studio creating modern & engaging online</h3>
+                        <h3 class="mb-3">Mulai sekarang fokus buat produksi dan stock barang kamu, Online Shopmu kita yang manage</h3>
                         <p class="text-muted">
-                            If several languages coalesce, the grammar of the resulting language is more simple and regular than that of the individual languages new common will be more regular than the existing If several is more
-                            simple and regular than that of the individual languages new common will be more regular than the existing
+                            Gak usah ribet mikirin gimana cara kembagin Online Shop kamu, mulai sekarang kita yang bakal Manage Online Shop kamu, kamu punya banyak waktu buat hal lain, yang bisa bikin Produk kamu lebih keren lagi !
                         </p>
                     </div>
                 </div>
@@ -99,22 +98,22 @@
                 <div class="col-lg-4 col-md-4">
                     <div class="text-center p-4">
                         <div class="icons-xl mb-3">
-                            <i class="uim uim-html5"></i>
+                            <i class="uim uim-analytics"></i>
                         </div>
 
-                        <h3>Web Designing</h3>
-                        <p class="text-muted">If several languages coalesce, the grammar of the resulting language is more regular than that of the individual</p>
+                        <h3>Riset dan Strategi</h3>
+                        <p class="text-muted">Kita bakal bikin strategi jitu dan riset market buat produk keren kamu</p>
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-4">
                     <div class="text-center p-4">
                         <div class="icons-xl mb-3">
-                            <i class="uim uim-repeat"></i>
+                            <i class="uim uim-analysis"></i>
                         </div>
 
-                        <h3>Programming</h3>
-                        <p class="text-muted">To achieve this, it would be necessary to have uniform more common several languages coalesce</p>
+                        <h3>Target Efektif</h3>
+                        <p class="text-muted">Kita bakal berusha bikin produk kamu nyampe ke konsumen yang tepat, dengan kata lain konsumen kamu adalah orang yang tepat buat produk kamu</p>
                     </div>
                 </div>
 
@@ -124,8 +123,8 @@
                             <i class="uim uim-airplay"></i>
                         </div>
 
-                        <h3>Software Development</h3>
-                        <p class="text-muted">For science, music, sport, etc, Europe uses the same vocabulary only differ in their pronunciation.</p>
+                        <h3>Transparan</h3>
+                        <p class="text-muted">Buat kamu, kita bakal selalu update perkembangan Online Shop kamu, buat kamu nyaman sama kita.</p>
                     </div>
                 </div>
             </div>
@@ -141,8 +140,8 @@
             <div class="row justify-content-center">
                 <div class="col-lg-8">
                     <div class="text-center title mb-5">
-                        <p class="text-muted text-uppercase fw-normal mb-2">Features</p>
-                        <h3 class="mb-3">Key features of the product</h3>
+                        {{-- <p class="text-muted text-uppercase fw-normal mb-2">Features</p> --}}
+                        <h3 class="mb-3">Masalah Utama kamu</h3>
                         <div class="title-icon position-relative">
                             <div class="position-relative">
                                 <i class="uim uim-arrow-circle-down"></i>
@@ -156,29 +155,31 @@
             <div class="row align-items-center">
                 <div class="col-lg-5 order-2 order-lg-1">
                     <div class="mt-4 mt-lg-0">
-                        <h3>Improve your Marketing business</h3>
-                        <p class="text-muted mt-3">If several languages coalesce, the grammar of the resulting language is more regular.</p>
+                        <h3>Apakah kamu sedang mengalami berbagai masalah ini ?</h3>
+                        <p class="text-muted mt-3">Pernah gak sih kamu galau karena ini :</p>
 
                         <div>
                             <p class="mb-2 text-muted">
-                                <span class="uim-icon-info mr-2 align-middle"><i class="uim uim-check-circle"></i></span>Donec vitae sapien ut
+                                <span class="uim-icon-info mr-2 align-middle"><i class="uim uim-check-circle"></i></span>Capek jualan harus perang harga
                             </p>
                             <p class="mb-2 text-muted">
-                                <span class="uim-icon-info mr-2 align-middle"><i class="uim uim-check-circle"></i></span>In enim justo, rhoncus imperdiet
+                                <span class="uim-icon-info mr-2 align-middle"><i class="uim uim-check-circle"></i></span>Banyak posting tapi gak laku-laku
+                            </p>
+                            <p class="mb-2 text-muted">
+                                <span class="uim-icon-info mr-2 align-middle"><i class="uim uim-check-circle"></i></span>Susah buat pecah telur di Online Shop
                             </p>
                             <p class="text-muted">
-                                <span class="uim-icon-info mr-2 align-middle"><i class="uim uim-check-circle"></i></span>Maecenas nec odio et
-                            </p>
+                                <span class="uim-icon-info mr-2 align-middle"><i class="uim uim-check-circle"></i></span>Mau bisnis Online tapi gak tau mulai dari mana
                         </div>
                         <div class="mt-4 anim-link">
-                            <a href="#" class="text-primary">Learn more</a>
+                            <a href="#" class="text-primary">Coba cek problem lain..</a>
                         </div>
                     </div>
                 </div>
 
                 <div class="col-lg-6 ml-lg-auto col-sm-8 order-1 order-lg-2">
                     <div>
-                        <img src="images/features/img-1.jpg" alt="" class="img-fluid mx-auto d-block" />
+                        <img src="images/features/img-1.png" alt="" class="img-fluid mx-auto d-block" />
                     </div>
                 </div>
             </div>
@@ -348,7 +349,7 @@
                         <div class="card-body p-md-5">
                             <div class="text-center title mb-5">
                                 <p class="text-muted text-uppercase fw-normal mb-2">Contact</p>
-                                <h3 class="mb-3">Have any Questions ?</h3>
+                                <h3 class="mb-3">Ada pertanyaan lain ?</h3>
                                 <div class="title-icon position-relative">
                                     <div class="position-relative">
                                         <i class="uim uim-arrow-circle-down"></i>
