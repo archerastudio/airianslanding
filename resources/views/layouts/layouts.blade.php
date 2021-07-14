@@ -44,8 +44,8 @@
          <div class="container">
              <!-- LOGO -->
              <a class="logo text-uppercase" href="/">
-                     <img src="images/logo-light.png" alt="" class="logo-light" height="30" />
-                     <img src="images/logo-dark.png" alt="" class="logo-dark" height="30" />
+                     <img src="images/airvisual-logo.svg" alt="" class="logo-light" height="30" />
+                     <img src="images/airvisual-logo-light.svg" alt="" class="logo-dark" height="30" />
                  </a>
 
              <a href="#" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -56,45 +56,44 @@
                      <!-- <li class="nav-item">
                          <a href="#home" class="nav-link" id="scrollElement">Home</a>
                      </li> -->
-                     <li class="nav-item dropdown">
-                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                           Layanan
-                         </a>
-                         <ul class="dropdown-custom dropdown-menu" aria-labelledby="navbarDropdown">
-                           <li><a class="dropdown-item" href="#" style="font-weight: 600;">Marketplace Management <p style="font-size: 15px; font-weight: 400;">Percayakan pengelolaan Marketplace kamu, <br>dan kami akan tingatkan Traffic Penjualan Tokomu</p></a></li>
-                           <li><a class="dropdown-item" href="#" style="font-weight: 600;">Social Media Content Creator <p style="font-size: 15px; font-weight: 400;">Percayakan pengelolaan Marketplace kamu, <br>dan kami akan tingatkan Traffic Penjualan Tokomu</p></a></li>
-                           <li><a class="dropdown-item" href="#" style="font-weight: 600;">Video dan Design <p style="font-size: 15px; font-weight: 400;">Percayakan pengelolaan Marketplace kamu, <br>dan kami akan tingatkan Traffic Penjualan Tokomu</p></a></li>
-                           <li><hr class="dropdown-divider"></li>
-                           <li><a class="dropdown-item" href="#">
-                            <i class="uim uim-download-alt"></i>  Download Pricelist</a></li>
-                         </ul>
-                       </li>
-                     <li class="nav-item">
-                         <a href="/about" class="nav-link">Tentang Kami</a>
-                     </li>
+{{--                     <li class="nav-item dropdown">--}}
+{{--                         <a class="nav-link dropdown-toggle" href="#" style="font-weight: 500" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">--}}
+{{--                           Layanan--}}
+{{--                         </a>--}}
+{{--                         <ul class="dropdown-custom dropdown-menu" aria-labelledby="navbarDropdown">--}}
+{{--                             <li><a class="dropdown-item" href="#"> Marketplace Management</a></li>--}}
+{{--                           <li><a class="dropdown-item" href="#">Social Media Content Creator</a></li>--}}
+{{--                           <li><a class="dropdown-item" href="#">Video dan Design</a></li>--}}
+{{--                           <li><hr class="dropdown-divider"></li>--}}
+{{--                           <li><a class="dropdown-item" href="#"><i class="uim uim-download-alt"></i>  Download Pricelist</a></li>--}}
+{{--                         </ul>--}}
+{{--                       </li>--}}
+{{--                     <li class="nav-item">--}}
+{{--                         <a href="/about" class="nav-link" style="font-weight: 500">Tentang Kami</a>--}}
+{{--                     </li>--}}
                      <!-- <li class="nav-item">
                          <a href="#features" class="nav-link">Features</a>
                      </li>
                      <li class="nav-item">
                          <a href="#clients" class="nav-link">Clients</a>
                      </li> -->
-                     <li class="nav-item">
-                         <a href="/pricing" class="nav-link">Paket Harga</a>
-                     </li>
+{{--                     <li class="nav-item">--}}
+{{--                         <a href="/pricing" class="nav-link" style="font-weight: 500">Paket Harga</a>--}}
+{{--                     </li>--}}
                      <!-- <li class="nav-item">
                          <a href="" class="nav-link">Kontak</a>
                      </li> -->
+{{--                     <li class="nav-item">--}}
+{{--                         <a href="" class="nav-link" style="font-weight: 500">F&Q</a>--}}
+{{--                     </li>--}}
                      <li class="nav-item">
-                         <a href="" class="nav-link">F&Q</a>
+                         <a href="https://course.airvisualcreative.com" class="nav-link" style="font-weight: 500">Course <span class="badge rounded-pill bg-success">Coming Soon</span></a>
                      </li>
-                     <li class="nav-item">
-                         <a href="https://course.airvisualcreative.com" class="nav-link">Course <span class="badge rounded-pill bg-success">Coming Soon</span></a>
-                     </li>
-                     <li class="nav-item">
-                        <a href="https://course.airvisualcreative.com" class="nav-link">Blog</a>
-                    </li>
+{{--                     <li class="nav-item">--}}
+{{--                        <a href="https://course.airvisualcreative.com" class="nav-link" style="font-weight: 500">Blog</a>--}}
+{{--                    </li>--}}
                  </ul>
-                 <a href="#" class="btn btn-airvisual btn-info btn-sm navbar-btn my-lg-0 my-2">Sign in</a>
+                 {{-- <a href="#" class="btn btn-airvisual btn-info btn-sm navbar-btn my-lg-0 my-2">Sign in</a> --}}
              </div>
          </div>
      </nav>
@@ -112,7 +111,7 @@
             <div class="row">
                 <div class="col-lg-4">
                     <a href="#" class="d-block mb-3">
-                        <img src="images/logo-light.png" alt="" height="40" />
+                        <img src="images/airvisual-logo.svg" alt="" height="40" />
                     </a>
                     <p>Pagarsih 245, Bandung <br> West Java, 40231</p>
                 </div>

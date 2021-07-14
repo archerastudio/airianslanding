@@ -109,8 +109,8 @@
     </section>
     <!-- end pricing -->
 
-     <!-- Start pricing -->
-     <section class="section bg-light" id="pricing">
+    <!-- Start pricing -->
+    <section class="section bg-light" id="pricing">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-8">
@@ -154,6 +154,7 @@
                         </div>
                     </div>
                 </div>
+
                 <div class="col-lg-4 col-md-6">
                     <div class="card plan-box text-center p-2">
                         <div class="card-body">
@@ -182,6 +183,7 @@
                         </div>
                     </div>
                 </div>
+
                 <div class="col-lg-4 col-md-6">
                     <div class="card plan-box text-center p-2">
                         <div class="card-body">
@@ -225,7 +227,8 @@
 
                         <div>
                             <h5 class="font-18 mt-1">What is Lorem Ipsum ?</h5>
-                            <p class="text-muted">If several languages coalesce, the grammar of the resulting language is more simple and regular than that of the individual</p>
+                            <p class="text-muted">If several languages coalesce, the grammar of the resulting language
+                                is more simple and regular than that of the individual</p>
                         </div>
                     </div>
 
@@ -238,7 +241,9 @@
 
                         <div>
                             <h5 class="font-18 mt-1">Why do we use it ?</h5>
-                            <p class="text-muted">For science, music, sport, etc, Europe uses the same vocabulary. The languages only differ in their grammar, their pronunciation and their most common words.</p>
+                            <p class="text-muted">For science, music, sport, etc, Europe uses the same vocabulary. The
+                                languages only differ in their grammar, their pronunciation and their most common
+                                words.</p>
                         </div>
                     </div>
                 </div>
@@ -253,7 +258,8 @@
 
                         <div>
                             <h5 class="font-18 mt-1">Where does it come from ?</h5>
-                            <p class="text-muted">To achieve this, it would be necessary to have uniform grammar, pronunciation and more common words.</p>
+                            <p class="text-muted">To achieve this, it would be necessary to have uniform grammar,
+                                pronunciation and more common words.</p>
                         </div>
                     </div>
 
@@ -266,7 +272,8 @@
 
                         <div>
                             <h5 class="font-18 mt-1">Where can I get some ?</h5>
-                            <p class="text-muted">It will be as simple as in fact, it will be Occidental. To it will seem like simplified English as a skeptical</p>
+                            <p class="text-muted">It will be as simple as in fact, it will be Occidental. To it will
+                                seem like simplified English as a skeptical</p>
                         </div>
                     </div>
                 </div>
@@ -293,12 +300,12 @@
                                     </div>
                                 </div>
                             </div>
-                                <div class="col-lg-12">
-                                    <div class="text-center title mb-5">
-                                        <a href="https://api.whatsapp.com/send?phone=6288229057631&text=Hi,%20Airians!%20👋%0AMau%20Tanya%20Boleh%20?" class="btn btn-primary btn-lg btn-block my-lg-0 my-2">Hubungi Kami</a>
-
-                                    </div>
+                            <div class="col-lg-12">
+                                <div class="text-center title mb-5">
+                                    <a href="https://api.whatsapp.com/send?phone=6288229057631&text=Hi,%20Airians!%20👋%0AMau%20Tanya%20Boleh%20?"
+                                       class="btn btn-primary btn-lg btn-block my-lg-0 my-2">Hubungi Kami</a>
                                 </div>
+                            </div>
                         </div>
                     </div>
                 </div>
